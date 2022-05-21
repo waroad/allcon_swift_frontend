@@ -16,6 +16,9 @@ class ReViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func SubmitButtonAction(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
     /*
     // MARK: - Navigation
 
