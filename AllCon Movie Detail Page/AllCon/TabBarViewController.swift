@@ -1,22 +1,21 @@
 //
-//  SummaryViewController.swift
+//  TabBarViewController.swift
 //  AllCon
 //
-//  Created by YunD on 2022/05/10.
+//  Created by YunD on 2022/05/30.
 //
 
 import UIKit
 
-class SummaryViewController: UIViewController {
+class TabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        Summary.text = UserDefaults.standard.string(forKey: "synopsis")!
+        self.navigationItem.setHidesBackButton(true, animated: true)
         // Do any additional setup after loading the view.
     }
     
-    @IBOutlet weak var Summary: UILabel!
-    
+
     /*
     // MARK: - Navigation
 
