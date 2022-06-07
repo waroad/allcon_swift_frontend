@@ -15,9 +15,21 @@ class ReViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    @IBOutlet weak var ReviewContent: UITextView!
+    @IBOutlet weak var Star: CosmosView!
     
     @IBAction func SubmitButtonAction(_ sender: Any) {
-        self.navigationController?.popViewController(animated: true)
+        if ReviewContent.text==""{
+            let alert = UIAlertController(title:"리뷰내용을 작성하세요.",message: "",
+                preferredStyle: UIAlertController.Style.alert)
+            let cancle = UIAlertAction(title: "확인", style: .default, handler: nil)
+            alert.addAction(cancle)
+            present(alert,animated: true,completion: nil)
+        }
+        else {
+            Webservice().moviereviewwrite(Reviewcontent: ReviewContent.text, ReviewStar: Int(Star.rating), movieid: UserDefaults.standard.integer(forKey: "movieid"))
+            self.navigationController?.popViewController(animated: true)
+        }
     }
     /*
     // MARK: - Navigation
