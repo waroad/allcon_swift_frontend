@@ -76,7 +76,7 @@ class DetailViewController: UIViewController {
             let endIndex = review[0].createdAt.index(review[0].createdAt.startIndex, offsetBy: 10)
             ReviewStar1.rating = Double(review[0].star)
             ReviewContent1.text = review[0].content
-            Reviewname1.text = "\(UserDefaults.standard.string(forKey: "username")!) |  \(review[0].createdAt[startIndex..<endIndex])"
+            Reviewname1.text = "\(review[0].owner) |  \(review[0].createdAt[startIndex..<endIndex])"
         }
         
         else if review.count > 1 {
@@ -88,17 +88,17 @@ class DetailViewController: UIViewController {
             let end = review[1].createdAt.index(review[1].createdAt.startIndex, offsetBy: 10)
             ReviewStar1.rating = Double(review[0].star)
             ReviewContent1.text = review[0].content
-            Reviewname1.text = "\(UserDefaults.standard.string(forKey: "username")!) |  \(review[0].createdAt[startIndex..<endIndex])"
+            Reviewname1.text = "\(review[0].owner) |  \(review[0].createdAt[startIndex..<endIndex])"
             ReviewStar2.rating = Double(review[1].star)
             ReviewContent2.text = review[1].content
-            Reviewname2.text = "\(UserDefaults.standard.string(forKey: "username")!) |  \(review[1].createdAt[start..<end])"
+            Reviewname2.text = "\(review[1].owner) |  \(review[1].createdAt[start..<end])"
         }
         if Movie.liked == 1{
             button.setImage(UIImage(systemName: "heart.fill"), for: .normal)
             wish = 1
         }
         UserDefaults.standard.setValue(Movie.id, forKey: "currentmovieid")
-        MovieTitle.text = "\(moviedetail.title)(\(moviedetail.year))"
+        MovieTitle.text = "\(moviedetail.title)"
         if moviedetail.category.count>2{
             genre.text = "\(moviedetail.category[0]),\(moviedetail.category[1]), \(moviedetail.category[2])"
         }

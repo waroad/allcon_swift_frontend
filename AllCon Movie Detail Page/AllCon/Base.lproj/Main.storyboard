@@ -1276,14 +1276,14 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="138" height="50"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                             </view>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="회원가입" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UdF-Ey-9K8">
-                                                <rect key="frame" x="155" y="0.0" width="104" height="50"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   회원가입" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UdF-Ey-9K8">
+                                                <rect key="frame" x="155" y="0.0" width="123" height="50"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p35-kL-snA">
-                                                <rect key="frame" x="276" y="0.0" width="138" height="50"/>
+                                                <rect key="frame" x="295" y="0.0" width="119" height="50"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                             </view>
                                         </subviews>
@@ -1701,7 +1701,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="917"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="d0l-fa-aEp">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="931"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="937"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l38-Y2-I22">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="36"/>
@@ -2089,10 +2089,10 @@
                                                 </constraints>
                                             </view>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="qU4-up-rmK">
-                                                <rect key="frame" x="0.0" y="628" width="414" height="82.5"/>
+                                                <rect key="frame" x="0.0" y="628" width="414" height="85.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OOk-Db-G99">
-                                                        <rect key="frame" x="0.0" y="0.0" width="138" height="82.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="138" height="85.5"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" image="jojorabit.jpeg">
                                                             <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
@@ -2102,7 +2102,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VPO-Xk-Dpc">
-                                                        <rect key="frame" x="138" y="0.0" width="138" height="82.5"/>
+                                                        <rect key="frame" x="138" y="0.0" width="138" height="85.5"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" image="jojorabit.jpeg"/>
                                                         <connections>
@@ -2110,7 +2110,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OT2-x7-bwu">
-                                                        <rect key="frame" x="276" y="0.0" width="138" height="82.5"/>
+                                                        <rect key="frame" x="276" y="0.0" width="138" height="85.5"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" image="jojorabit.jpeg"/>
                                                         <connections>
@@ -2120,30 +2120,30 @@
                                                 </subviews>
                                             </stackView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mCK-AM-lFK">
-                                                <rect key="frame" x="0.0" y="710.5" width="414" height="35"/>
+                                                <rect key="frame" x="0.0" y="713.5" width="414" height="35"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="lIW-8x-0PQ"/>
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  관심목록" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nrf-6k-nqf">
-                                                <rect key="frame" x="0.0" y="745.5" width="414" height="29"/>
+                                                <rect key="frame" x="0.0" y="748.5" width="414" height="29"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OlP-ef-sa2">
-                                                <rect key="frame" x="0.0" y="774.5" width="414" height="10"/>
+                                                <rect key="frame" x="0.0" y="777.5" width="414" height="10"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="10" id="dOs-iT-ch6"/>
                                                 </constraints>
                                             </view>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="qeh-a4-E6L">
-                                                <rect key="frame" x="0.0" y="784.5" width="414" height="82.5"/>
+                                                <rect key="frame" x="0.0" y="787.5" width="414" height="85.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9L-QX-DUc">
-                                                        <rect key="frame" x="0.0" y="0.0" width="138" height="82.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="138" height="85.5"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" image="jojorabit.jpeg">
                                                             <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
@@ -2153,7 +2153,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nkT-S7-ddY">
-                                                        <rect key="frame" x="138" y="0.0" width="138" height="82.5"/>
+                                                        <rect key="frame" x="138" y="0.0" width="138" height="85.5"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" image="jojorabit.jpeg"/>
                                                         <connections>
@@ -2161,7 +2161,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zsz-N9-o6b">
-                                                        <rect key="frame" x="276" y="0.0" width="138" height="82.5"/>
+                                                        <rect key="frame" x="276" y="0.0" width="138" height="85.5"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" image="jojorabit.jpeg"/>
                                                         <connections>
@@ -2171,14 +2171,14 @@
                                                 </subviews>
                                             </stackView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NiY-cx-jd3">
-                                                <rect key="frame" x="0.0" y="867" width="414" height="35"/>
+                                                <rect key="frame" x="0.0" y="873" width="414" height="35"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="GwS-MP-ArM"/>
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  회원탈퇴" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nen-Ng-bGX">
-                                                <rect key="frame" x="0.0" y="902" width="414" height="29"/>
+                                                <rect key="frame" x="0.0" y="908" width="414" height="29"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
