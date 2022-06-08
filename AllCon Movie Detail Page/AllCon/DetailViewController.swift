@@ -98,15 +98,15 @@ class DetailViewController: UIViewController {
             wish = 1
         }
         UserDefaults.standard.setValue(Movie.id, forKey: "currentmovieid")
-        MovieTitle.text = "  \(moviedetail.title)(\(moviedetail.year))"
+        MovieTitle.text = "\(moviedetail.title)(\(moviedetail.year))"
         if moviedetail.category.count>2{
-            genre.text = "  \(moviedetail.category[0]),\(moviedetail.category[1]), \(moviedetail.category[2])"
+            genre.text = "\(moviedetail.category[0]),\(moviedetail.category[1]), \(moviedetail.category[2])"
         }
         else if moviedetail.category.count==2{
-            genre.text = "  \(moviedetail.category[0]),\(moviedetail.category[1])"
+            genre.text = "\(moviedetail.category[0]),\(moviedetail.category[1])"
         }
         else if moviedetail.category.count==1{
-            genre.text = "  \(moviedetail.category[0])"
+            genre.text = " \(moviedetail.category[0])"
         }
         else {
             genre.text = ""
@@ -140,13 +140,13 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var genre: UILabel!
     @IBOutlet weak var button: UIButton!
     @IBOutlet weak var synopsis: UILabel!
-    @IBOutlet weak var Netflix: UIButton!
-    @IBOutlet weak var Amazon: UIButton!
-    @IBOutlet weak var Disney: UIButton!
-    @IBOutlet weak var Wavve: UIButton!
-    @IBOutlet weak var Watcha: UIButton!
-    @IBOutlet weak var Appletv: UIButton!
-    @IBOutlet weak var Naver: UIButton!
+    @IBOutlet weak var Appletv: UIStackView!
+    @IBOutlet weak var Naver: UIStackView!
+    @IBOutlet weak var Watcha: UIStackView!
+    @IBOutlet weak var Wavve: UIStackView!
+    @IBOutlet weak var Disney: UIStackView!
+    @IBOutlet weak var Amazon: UIStackView!
+    @IBOutlet weak var Netflix: UIStackView!
     @IBOutlet weak var ReviewStar1: CosmosView!
     @IBOutlet weak var ReviewContent1: UILabel!
     @IBOutlet weak var Reviewname1: UILabel!

@@ -55,6 +55,7 @@ class LoginViewController: UIViewController {
                                 var tastelist = save.profile.taste.components(separatedBy: [" ","'","]","[",","])
                                 tastelist = tastelist.filter { $0 != "" }
                                 UserDefaults.standard.setValue(tastelist, forKey: "tastelist")
+                                UserDefaults.standard.setValue("\(tastelist)", forKey: "taste")
                                 Webservice().tastemovie()
                                 self.navigationController?.pushViewController(pushTB!, animated: true)
                                 
